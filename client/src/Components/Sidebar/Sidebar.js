@@ -34,7 +34,7 @@ const Sidebar = () => {
                   </p>
           </div>
 
-        <SidebarList/>
+        <SidebarList expandSidebar={expandSidebar}/>
        </div>
 
        <div className='container'>
