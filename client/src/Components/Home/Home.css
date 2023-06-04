@@ -1,0 +1,12 @@
+.home {
+    height: 400px;
+    /* background-color: #030303da; */
+    color: white;
+}
+
+.home-content h1 {
+    margin: auto;
+    padding: 10px;
+    margin-left: 200px;
+    line-height: 400px;
+}
