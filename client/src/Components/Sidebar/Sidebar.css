@@ -9,6 +9,10 @@
     width: 95px;
 }
 
+.sidebar-expand {
+    width: 230px;
+}
+
 .icon-for-sidebar-expand-and-collapse {
     display: flex;
     align-items: right;

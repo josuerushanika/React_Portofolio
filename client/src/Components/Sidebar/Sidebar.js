@@ -10,18 +10,28 @@ const Sidebar = () => {
   const handleExpandClick = () => {
 
      setExpandSidebar(!expandSidebar)
-     
+
   }
 
 
   return (
-    <div className='container-fluid sidebar-section'>
+    <div className="container-fluid sidebar-section">
        
-       <div className='sidebar'>
+
+       <div className={expandSidebar ? "sidebar-expand sidebar":"sidebar"}>
 
           <div className='icon-for-sidebar-expand-and-collapse'>
-            <p> <BsChevronCompactLeft size={30}/> </p>
+            <p onClick={handleExpandClick}>
+                
+                 {expandSidebar ? (
+                    <BsChevronCompactLeft size={30}/>
+                 ) : (
+                    <BsChevronCompactRight size={30}/>
+                 )}
+                 
+                  </p>
           </div>
+
 
        </div>
 
