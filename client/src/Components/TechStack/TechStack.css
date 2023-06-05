@@ -6,3 +6,34 @@
 .section-title h5 {
   text-align: center;
 }
+
+.left-max {
+    margin-left: 155px; 
+}
+
+.tech-content {
+    padding: 10px;
+    color: black;
+    margin-top: 50px;
+    box-shadow: 10px 7px 6px -3px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 10px 7px 6px -3px rgba(0,0,0,0.74);
+    -moz-box-shadow: 10px 7px 6px -3px rgba(0,0,0,0.74);
+}
+
+.tech-content p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.tech-content:hover {
+    background-color: #FF854C;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+
+    box-shadow: 10px 7px 6px -3px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 10px 7px 6px -3px rgba(0,0,0,0.74);
+    -moz-box-shadow: 10px 7px 6px -3px rgba(0,0,0,0.74);
+}

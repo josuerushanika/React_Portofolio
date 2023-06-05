@@ -75,6 +75,13 @@ const TechStack = () => {
         {
             name: "Kali Lunix"
         },
+        {
+            name: "IOT"
+        },
+
+        {
+            name: "Ruby On Rails"
+        },
     ]
 
   return (
@@ -84,7 +91,13 @@ const TechStack = () => {
        </div>
 
        <div className='row'>
-          
+           {data.map((item,index) =>(
+             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12 left-max'>
+             <div className='tech-content'>
+                <p>{item.name}</p>
+                </div>
+             </div>
+           ))}
        </div>
     </div>
   )
