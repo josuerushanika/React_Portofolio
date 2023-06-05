@@ -7,7 +7,7 @@ const App = () => (
   <>
     <Sidebar />
     <About />
-    <TechStack/>
+    <TechStack />
   </>
 );
 
