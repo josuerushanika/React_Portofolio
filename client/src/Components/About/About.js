@@ -17,6 +17,7 @@ const About = () => {
                  <div className='about-details'>
                     <div className='about-title'>
                         <h5>About Me</h5>
+                        <span className='line'></span>
                     </div>
                      <p> As a skilled Software
                          developer and open-source enthusiast, I am dedicated to crafting clean code and creating

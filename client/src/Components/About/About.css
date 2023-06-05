@@ -3,19 +3,31 @@
     -webkit-box-shadow: 10px 7px 6px -3px rgba(0,0,0,0.74);
     -moz-box-shadow: 10px 7px 6px -3px rgba(0,0,0,0.74);
     margin-top: 50px;
+    height: 400px;
 }
 
 .about-image img {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 190px;
     margin-left: 155px;
     margin-top: 50px;
-    border: 5px solid yellow;
+    border: 5px solid  rgb(205, 190, 50);;
 }
 
 .about-details {
     margin-top: 50px;
-    
+}
+
+.about-title h5 {
+    text-align: center;
+}
+
+.line {
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 1px auto;
+    background-color: rgb(205, 190, 50);
 }
 
