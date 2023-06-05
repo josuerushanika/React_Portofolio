@@ -16,17 +16,13 @@ const Sidebar = () => {
 
       <div className={expandSidebar ? 'sidebar-expand sidebar' : 'sidebar'}>
 
-        <div className="icon-for-sidebar-expand-and-collapse">
-          <p onClick={handleExpandClick}>
-
-            {expandSidebar ? (
-              <BsChevronCompactLeft size={30} />
-            ) : (
-              <BsChevronCompactRight size={30} />
-            )}
-
-          </p>
-        </div>
+        <button className="icon-for-sidebar-expand-and-collapse" onClick={handleExpandClick}>
+          {expandSidebar ? (
+            <BsChevronCompactLeft size={30} />
+          ) : (
+            <BsChevronCompactRight size={30} />
+          )}
+        </button>
 
         <SidebarList expandSidebar={expandSidebar} />
       </div>
