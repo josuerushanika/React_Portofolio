@@ -1,6 +1,7 @@
 .techstack-section {
     margin-top: 40px;
     height: auto;
+    margin-bottom: 40px;    
 }
 
 .section-title h5 {
@@ -9,6 +10,12 @@
 
 .left-max {
     margin-left: 155px; 
+}
+
+.tech-content-marked {
+  background-color: blueviolet;   
+  color: white;
+
 }
 
 .tech-content {
@@ -48,6 +55,7 @@
     justify-content: center;
     display: block;
     margin: 0 auto;
+    margin-top: -30px;
     line-height: 50px;   
 }
 
@@ -65,4 +73,9 @@
     margin-top: 35px;
     border-radius: 5px;
     margin-bottom: 40px;
+}
+
+.load-more-tech-stack:hover {
+    background-color: blueviolet;
+    transition-duration: 1s;
 }
