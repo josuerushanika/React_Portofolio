@@ -8,7 +8,7 @@ const About = () => (
     <div className="row">
       <div className="col-xl-6 col-md-12 col-sm-12">
         <div className="about-image">
-          <img src={ProfilePic} alt="Profile Photo" />
+          <img src={ProfilePic} alt="" />
         </div>
       </div>
 
@@ -21,10 +21,14 @@ const About = () => (
           <p>
             {' '}
             As a skilled Software
-            developer and open-source enthusiast, I am dedicated to crafting clean code and creating
-            accessible designs. I thrive on collaboration and am particularly passionate about pair-programming and remote
-            work. With fluency in multiple languages, frameworks, and technologies, I have a proven ability to quickly adapt to
-            new challenges and deliver high-quality results. Whether working independently or as part of a team.
+            developer and open-source enthusiast, I am dedicated to crafting
+            clean code and creating
+            accessible designs. I thrive on collaboration and am particularly
+            passionate about pair-programming and remote
+            work. With fluency in multiple languages, frameworks, and technologies,
+            I have a proven ability to quickly adapt to
+            new challenges and deliver high-quality results. Whether working
+            independently or as part of a team.
           </p>
         </div>
       </div>

@@ -123,7 +123,7 @@ const TechStack = () => {
       <div className="row">
         {data.slice(0, showMoreTechState).map((item, index) => (
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 left-max" key={index}>
-            <div className={index===0?"tech-content-marked tech-content":"tech-content"}>
+            <div className={index === 0 ? 'tech-content-marked tech-content' : 'tech-content'}>
               <span className="tech-number" style={{ backgroundColor: colors[index] }}>
                 {index + 1 }
               </span>

@@ -16,7 +16,7 @@ const Sidebar = () => {
 
       <div className={expandSidebar ? 'sidebar-expand sidebar' : 'sidebar'}>
 
-        <button className="icon-for-sidebar-expand-and-collapse" onClick={handleExpandClick}>
+        <button type="button" className="icon-for-sidebar-expand-and-collapse" onClick={handleExpandClick}>
           {expandSidebar ? (
             <BsChevronCompactLeft size={30} />
           ) : (
